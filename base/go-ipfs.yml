@@ -1,0 +1,63 @@
+version: '2.4'
+
+services:
+
+  node.ipfs0:
+    container_name: node.ipfs0
+    image: ipfs/go-ipfs
+    ports:
+      - 5001:5001
+      - 4001:4001
+      - 8081:8080
+    environment:
+      - IPFS_PROFILE=server
+      - LIBP2P_FORCE_PNET=1
+      - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
+    volumes:
+      - ipfs0:/data/ipfs
+      - ./swarm.key:/data/ipfs/swarm.key
+
+  node.ipfs1:
+    container_name: node.ipfs1
+    image: ipfs/go-ipfs
+    ports:
+      - 5002:5001
+      - 4002:4001
+      - 8082:8080
+    environment:
+      - IPFS_PROFILE=server
+      - LIBP2P_FORCE_PNET=1
+      - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
+    volumes:
+      - ipfs1:/data/ipfs
+      - ./swarm.key:/data/ipfs/swarm.key
+
+  node.ipfs2:
+    container_name: node.ipfs2
+    image: ipfs/go-ipfs
+    ports:
+      - 5003:5001
+      - 4003:4001
+      - 8083:8080
+    environment:
+      - IPFS_PROFILE=server
+      - LIBP2P_FORCE_PNET=1
+      - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
+    volumes:
+      - ipfs2:/data/ipfs
+      - ./swarm.key:/data/ipfs/swarm.key
+  
+  node.ipfs3:
+    container_name: node.ipfs3
+    image: ipfs/go-ipfs
+    ports:
+      - 5004:5001
+      - 4004:4001
+      - 8084:8080
+    environment:
+      - IPFS_PROFILE=server
+      - LIBP2P_FORCE_PNET=1
+      - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
+    volumes:
+      - ipfs3:/data/ipfs
+      - ./swarm.key:/data/ipfs/swarm.key

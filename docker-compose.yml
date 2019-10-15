@@ -1,0 +1,44 @@
+version: '2.4'
+
+volumes:
+  ipfs0:
+  ipfs1:
+  # ipfs2:
+  # ipfs3:
+
+networks: 
+  ipfsNetwork:
+
+services:
+  ipfs0:
+    container_name: ipfs0
+    extends:
+      file: base/go-ipfs.yml
+      service: node.ipfs0
+    networks: 
+      - ipfsNetwork
+
+    
+  ipfs1:
+    container_name: ipfs1
+    extends:
+      file: base/go-ipfs.yml
+      service: node.ipfs1
+    networks: 
+      - ipfsNetwork
+
+  # ipfs2:
+  #   container_name: ipfs2
+  #   extends:
+  #     file: base/go-ipfs.yml
+  #     service: node.ipfs2
+  #   networks: 
+  #     - ipfsNetwork
+
+  # ipfs3:
+  #   container_name: ipfs3
+  #   extends:
+  #     file: base/go-ipfs.yml
+  #     service: node.ipfs3
+  #   networks: 
+  #     - ipfsNetwork

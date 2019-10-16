@@ -35,6 +35,12 @@ services:
   ipfs0:
     container_name: ipfs0
     image: ipfs/go-ipfs:release
+    environment:
+      - LIBP2P_FORCE_PNET=1
+      - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
+    volumes:
+      - ipfs0:/data/ipfs
+      - ./swarm.key:/data/ipfs/swarm.key
 #   ports:
 #     - "4001:4001" # ipfs swarm - expose if needed/wanted
 #     - "5001:5001" # ipfs api - expose if needed/wanted
@@ -72,8 +78,12 @@ services:
   ipfs1:
     container_name: ipfs1
     image: ipfs/go-ipfs:release
+    environment:
+      - LIBP2P_FORCE_PNET=1
+      - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
     volumes:
       - ./compose/ipfs1:/data/ipfs
+      - ./swarm.key:/data/ipfs/swarm.key
 
   cluster1:
     container_name: cluster1
@@ -97,8 +107,12 @@ services:
   ipfs2:
     container_name: ipfs2
     image: ipfs/go-ipfs:release
+    environment:
+      - LIBP2P_FORCE_PNET=1
+      - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
     volumes:
       - ./compose/ipfs2:/data/ipfs
+      - ./swarm.key:/data/ipfs/swarm.key
 
   cluster2:
     container_name: cluster2

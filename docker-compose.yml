@@ -29,7 +29,7 @@ services:
       - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
     volumes:
       - ipfs0:/data/ipfs
-      - ./compose/ipfs0:/data/ipfs
+      # - ./compose/ipfs0:/data/ipfs
       - ./swarm.key:/data/ipfs/swarm.key
 
     networks: 
@@ -51,7 +51,7 @@ services:
       - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
     volumes:
       - ipfs1:/data/ipfs
-      - ./compose/ipfs1:/data/ipfs
+      # - ./compose/ipfs1:/data/ipfs
       - ./swarm.key:/data/ipfs/swarm.key
 
     networks: 
@@ -72,7 +72,7 @@ services:
       - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
     volumes:
       - ipfs2:/data/ipfs
-      - ./compose/ipfs2:/data/ipfs
+      # - ./compose/ipfs2:/data/ipfs
       - ./swarm.key:/data/ipfs/swarm.key
 
     networks: 
@@ -93,7 +93,7 @@ services:
       - IPFS_SWARM_KEY_FILE=/data/ipfs/swarm.key
     volumes:
       - ipfs3:/data/ipfs
-      - ./compose/ipfs3:/data/ipfs
+      # - ./compose/ipfs3:/data/ipfs
       - ./swarm.key:/data/ipfs/swarm.key
 
     networks: 
@@ -121,7 +121,7 @@ services:
           # - "9096:9096" # Cluster IPFS Proxy endpoint
     volumes:
       - cluster0:/data/ipfs-cluster
-      - ./compose/cluster0:/data/ipfs-cluster
+      # - ./compose/cluster0:/data/ipfs-cluster
     networks: 
       - ipfsNetwork
 
@@ -147,7 +147,7 @@ services:
           # - "9096:9096" # Cluster IPFS Proxy endpoint
     volumes:
       - cluster1:/data/ipfs-cluster
-      - ./compose/cluster1:/data/ipfs-cluster
+      # - ./compose/cluster1:/data/ipfs-cluster
     networks: 
       - ipfsNetwork
 
@@ -173,7 +173,7 @@ services:
           # - "9096:9096" # Cluster IPFS Proxy endpoint
     volumes:
       - cluster2:/data/ipfs-cluster
-      - ./compose/cluster1:/data/ipfs-cluster
+      # - ./compose/cluster1:/data/ipfs-cluster
     networks: 
       - ipfsNetwork
 
@@ -199,6 +199,6 @@ services:
           # - "9096:9096" # Cluster IPFS Proxy endpoint
     volumes:
       - cluster3:/data/ipfs-cluster
-      - ./compose/cluster1:/data/ipfs-cluster
+      # - ./compose/cluster1:/data/ipfs-cluster
     networks: 
       - ipfsNetwork

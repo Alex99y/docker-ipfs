@@ -72,3 +72,26 @@
 15:25:40.094567 db@open done T·127.157225ms
 15:26:20.638715 db@close closing
 15:26:20.638842 db@close done T·125.46µs
+=============== Oct 16, 2019 (UTC) ===============
+15:45:25.687887 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:45:25.688264 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:45:25.688288 db@open opening
+15:45:25.688380 journal@recovery F·1
+15:45:25.690420 journal@recovery recovering @14
+15:45:25.692853 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:45:26.434077 db@janitor F·4 G·0
+15:45:26.434125 db@open done T·745.820278ms
+15:48:14.843752 db@close closing
+15:48:14.843877 db@close done T·125.436µs
+=============== Oct 16, 2019 (UTC) ===============
+15:48:46.104397 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:46.104549 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:48:46.104568 db@open opening
+15:48:46.104631 journal@recovery F·1
+15:48:46.106387 journal@recovery recovering @16
+15:48:46.420453 memdb@flush created L0@18 N·121 S·15KiB "/F5..KXT,v11":"/pr..P3A,v22"
+15:48:46.528299 version@stat F·[3] S·17KiB[17KiB] Sc·[0.75]
+15:48:47.202186 db@janitor F·5 G·0
+15:48:47.202240 db@open done T·1.097657301s
+15:50:23.609183 db@close closing
+15:50:23.609346 db@close done T·162.671µs

@@ -1,4 +1,5 @@
 function up () {
+    export CLUSTER_SECRET=$(od  -vN 32 -An -tx1 /dev/urandom | tr -d ' \n')
     ## Build containers
     docker-compose build
 
@@ -11,7 +12,7 @@ function up () {
     fi
 
     echo "Preparing containers, this will take a while ..."
-    sleep 20
+    sleep 25
 
     echo "Removing all public nodes"
     ## Remove all public nodes
@@ -19,6 +20,8 @@ function up () {
     docker exec -it ipfs1 ipfs bootstrap rm --all
     docker exec -it ipfs2 ipfs bootstrap rm --all
     docker exec -it ipfs3 ipfs bootstrap rm --all
+
+    sleep 15
 
     echo "Save ipfs IDs to generates multiaddrs"
     ## Save ipfs IDs and generates Multiaddr

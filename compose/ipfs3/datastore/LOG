@@ -62,3 +62,25 @@
 15:34:11.369226 version@stat F·[3] S·13KiB[13KiB] Sc·[0.75]
 15:34:12.239800 db@janitor F·5 G·0
 15:34:12.239842 db@open done T·1.156693792s
+15:40:40.882689 db@close closing
+15:40:40.882791 db@close done T·102.691µs
+=============== Oct 16, 2019 (UTC) ===============
+15:48:46.779151 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:46.779352 version@stat F·[3] S·13KiB[13KiB] Sc·[0.75]
+15:48:46.779369 db@open opening
+15:48:46.779693 journal@recovery F·1
+15:48:46.782405 journal@recovery recovering @13
+15:48:46.856305 memdb@flush created L0@15 N·132 S·16KiB "/F5..TZD,v100":"/pr..NUQ,v133"
+15:48:46.856937 version@stat F·[4] S·29KiB[29KiB] Sc·[1.00]
+15:48:47.731057 db@janitor F·6 G·0
+15:48:47.731102 db@open done T·951.717156ms
+15:48:47.731184 table@compaction L0·4 -> L1·0 S·29KiB Q·231
+15:48:48.052955 table@build created L1@18 N·220 S·26KiB "/F5..RUZ,v13":"/pr..FIY,v52"
+15:48:48.053018 version@stat F·[0 1] S·26KiB[0B 26KiB] Sc·[0.00 0.00]
+15:48:48.451094 table@compaction committed F-3 S-3KiB Ke·0 D·7 T·719.86386ms
+15:48:48.453864 table@remove removed @15
+15:48:48.454080 table@remove removed @12
+15:48:48.454177 table@remove removed @5
+15:48:48.454228 table@remove removed @2
+15:50:20.403470 db@close closing
+15:50:20.403616 db@close done T·145.68µs

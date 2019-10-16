@@ -1,0 +1,11 @@
+{
+	"ID": "Qmb2buSAf26eudjH8XsqJKpvncMW58qAPobVG11dSqDHu1",
+	"PublicKey": "CAASpgIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVxavbkPSlnhmdFh2QG8WcBCVG7oXslxpQzwvIoSQHDLJOnjCcGuByXzj1Noa8lYyqvCjNho8eMUBeNmA4KGfRcmm6Pyz5cKV0MRQutvGzdFyIJxHV8BAp2g2cFNYoFoLYewKAr3C/9ROxC5HnmdZR+sAdneAvZsvlYpYvFERdiNgOB2H9JC3Hf2HUkdQPJ7LnY5AuLgCdYZxsMQUg+QdiDMRvQCVAdzXDl9oL/lqLE1Xp0sg2sEzwVUJPnb4rWd/qnI8uIouZQeVkU0YTg+BIaFsXZXPbNcPxJJAzEWAukY2v48p4uJZ8C9mT9H2CJyiv2nNbSV5nVEg1C0k8cZOFAgMBAAE=",
+	"Addresses": [
+		"/ip4/127.0.0.1/tcp/4001/ipfs/Qmb2buSAf26eudjH8XsqJKpvncMW58qAPobVG11dSqDHu1",
+		"/ip4/192.168.0.2/tcp/4001/ipfs/Qmb2buSAf26eudjH8XsqJKpvncMW58qAPobVG11dSqDHu1"
+	],
+	"AgentVersion": "go-ipfs/0.4.22/",
+	"ProtocolVersion": "ipfs/0.1.0"
+}
+

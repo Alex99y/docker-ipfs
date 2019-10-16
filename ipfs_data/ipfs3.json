@@ -1,0 +1,11 @@
+{
+	"ID": "QmaHkbXNJtoYbA4mXggTqc8XCbHr7RL4LJ8CFHEUJvYxPt",
+	"PublicKey": "CAASpgIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9pQw4GpVifH4Rb8kFfS8HGo+BeTtqYuV8BsFFseow1SAUqx+ryFgtSQ+FwwhjKDGAR57vFB0bdEXmp7vH3skLqVIHnnvLvIMHSzTnyOV+KiUxAiJfigeBzE1IqDqRd0XfUO4xW1rn3TxFvxvYfsQAmURiyV4rAiYEZf12kSosGYmXwzXTk7P2VRfIH8MuwjhqAbT73ccGsNC/0B1ALtnlOng+8xbE82eojfPtB28DCz1NreloOheD5zHmrVTzIjUyODKIQYQCjPMn1yZLaHME3mZVzVMTd1gLAxFOFPCp6BTKb4EFtF8M/ntTV8LBgtEtnsfx27YNI2orLtpsZtYtAgMBAAE=",
+	"Addresses": [
+		"/ip4/127.0.0.1/tcp/4001/ipfs/QmaHkbXNJtoYbA4mXggTqc8XCbHr7RL4LJ8CFHEUJvYxPt",
+		"/ip4/172.24.0.4/tcp/4001/ipfs/QmaHkbXNJtoYbA4mXggTqc8XCbHr7RL4LJ8CFHEUJvYxPt"
+	],
+	"AgentVersion": "go-ipfs/0.4.22/",
+	"ProtocolVersion": "ipfs/0.1.0"
+}
+

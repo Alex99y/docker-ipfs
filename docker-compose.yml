@@ -195,7 +195,9 @@ services:
     ports:
       - 10080:80
     volumes:
-      # - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      # IMPORTANT!
+      # COPY THIS FILE MANUALLY
+      # - ./nginx/nginx.conf:/etc/nginx/nginx.conf 
       - nginx:/etc/nginx
     networks: 
       - ipfsNetwork

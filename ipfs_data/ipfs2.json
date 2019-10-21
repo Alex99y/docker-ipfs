@@ -3,7 +3,7 @@
 	"PublicKey": "CAASpgIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCfNKnI7kPg17PrrBNnAxKIDPd1E/K+tSV8jLOYV4G8PVDbw8wRSZpcl1ZYW7AnKNmpvhc9+K1zLV+OWp6I/VlgyNzCTkGwlzr5c+VleB2yqQ3//grBnKA01/jKTd8Ej40Hj8ZUoToJgJJm9knLALz8bb0TkpYZQSjjBqeKj2cFYEA67pr7rNnV+c00tJA+Lv+iMxufCYRg6uPCAyCmfd5LkNId5VNZYuHUX0W7lMFxeX+SMgLdbX36vhUWiALVbj1YG4+uP+TOjq3QOe6AkEvLwTmn4BAUJmAolQNjoCfomqS8HzJHXjziPQdvpRcOPQnE8dRc1xmxT0Tw3QQHkAtzAgMBAAE=",
 	"Addresses": [
 		"/ip4/127.0.0.1/tcp/4001/ipfs/QmdLq53kinX4FxNAcGb8Y5WymnixsZRB3xdLBhALvsFGDy",
-		"/ip4/172.28.0.4/tcp/4001/ipfs/QmdLq53kinX4FxNAcGb8Y5WymnixsZRB3xdLBhALvsFGDy"
+		"/ip4/172.29.0.4/tcp/4001/ipfs/QmdLq53kinX4FxNAcGb8Y5WymnixsZRB3xdLBhALvsFGDy"
 	],
 	"AgentVersion": "go-ipfs/0.4.22/",
 	"ProtocolVersion": "ipfs/0.1.0"
